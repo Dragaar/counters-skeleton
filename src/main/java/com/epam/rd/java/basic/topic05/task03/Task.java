@@ -34,7 +34,7 @@ public class Task {
 	{
 		for(int i = 0; i < numberOfThreads; i++)
 		{
-			threads[i] = new Thread(r, "Thread - " + i);
+			threads[i] = new Thread(r);
 		}
 
 	}
